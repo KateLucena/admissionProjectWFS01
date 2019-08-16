@@ -5,6 +5,6 @@ function valida_form(){
         alert("Por favor, insira o seu e-mail!");
         formvalid.email.focus();
     } else{
-        return alert("O e-mail" + " " + formvalid.email.value + " " + " foi enviado com sucesso!");
+        return alert("O e-mail" + " " + formvalid.email.value + " " + "foi enviado com sucesso!");
     }
 }
