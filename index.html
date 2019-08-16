@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8"/>
 <title>Projeto Future4</title>
 <link rel="stylesheet" href="estilo.css">
 </head>
@@ -17,10 +18,10 @@
     <article><strong><p>JAVASCRIPT</p></strong></article>
 </main>
 <footer>
-    <form action="post">
+    <form name= "formvalid" method="POST" >
 
         <input type="email" id="email" size="50px" placeholder="Coloque aqui o seu e-mail">
-        <button type="submit" >Enviar</button>
+        <button type="submit" onclick="return valida_form()">Enviar</button>
     </form>
 
 </footer>
